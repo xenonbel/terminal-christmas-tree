@@ -94,7 +94,7 @@ def christmas_tree():
                     "            |_|   |_|    |___/                                                                         "
                     ]
 
-            text_padding = (cols - 120) // 2
+            text_padding = (cols - 105) // 2
 
             if text_padding < 0:
                 text_padding = 0
@@ -113,3 +113,4 @@ def christmas_tree():
 
 if __name__ == "__main__":
     christmas_tree()
+
