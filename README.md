@@ -2,10 +2,10 @@
 
 Here is an **animated Christmas tree**, which is launched in the terminal, for the upcoming New Year.
 
-## How to build and run:
+## How to run:
+To run the project, you need a UV package and project manager -> [installing UV](https://docs.astral.sh/uv/getting-started/installation/)
 ```
-docker build -t tree-app .
-docker run --rm -it tree-app
+uv run christmas_tree.py
 ```
 ## How to change a Christmas tree:
 - Сhange the symbols on the Christmas tree:
