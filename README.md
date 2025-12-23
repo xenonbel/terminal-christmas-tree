@@ -3,7 +3,7 @@
 Here is an **animated Christmas tree**, which is launched in the terminal, for the upcoming New Year.
 
 ## How to run:
-To run the project, you need a UV package and project manager -> [installing UV](https://docs.astral.sh/uv/getting-started/installation/)
+To run the project, you need a UV package and project manager – [Installing UV](https://docs.astral.sh/uv/getting-started/installation/)
 ```
 uv run christmas_tree.py
 ```
