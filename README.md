@@ -2,7 +2,7 @@
 
 Here is an **animated Christmas tree**, which is launched in the terminal, for the upcoming New Year.
 
-![IMG_0840](https://github.com/user-attachments/assets/68b981f5-eed9-4b8f-9ae4-3642ef7d755a)
+![2025-12-23 15-00-47(4)](https://github.com/user-attachments/assets/699a1de0-aa1f-4fa6-8868-e6eafbf65478)
 
 ## How to run:
 To run the project, you need a UV package and project manager – [Installing UV](https://docs.astral.sh/uv/getting-started/installation/)
