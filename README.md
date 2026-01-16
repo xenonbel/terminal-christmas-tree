@@ -1,4 +1,4 @@
-# terminal-christmas-tree
+# 🎄 *Terminal Christmas Tree* 
 
 Here is an **animated Christmas tree**, which is launched in the terminal, for the upcoming New Year.
 
