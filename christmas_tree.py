@@ -1,5 +1,6 @@
 from random import randint
 from colorama import Fore, init
+import subprocess
 import os
 import sys
 import time
@@ -14,8 +15,11 @@ blue = Fore.BLUE
 white = Fore.WHITE
 purple = Fore.MAGENTA
 cyan = Fore.CYAN
+
+# Change the color of the trunk
 brown = "\033[38;5;52m"
 
+# Сhange the symbols on the Christmas tree
 def func():
     symbols = ['*', '.', '+', 'o', 'O', '@', '^', '~', '°', '·', '%',
          '$', '№', '&', '8', '0', '3', '{', '}', '✶', '❄', '❉']
@@ -24,6 +28,7 @@ def func():
 
     symbol=symbols[randnum]
 
+    # Change the ratio of colored and green characters
     if randint(1, 100) <= 60:
         color_idx = randint(0, len(colors) - 1)
         return f"{colors[color_idx]}{symbol}"
@@ -33,7 +38,7 @@ def func():
 
 def christmas_tree():
 
-    os.system('cls' if os.name == 'nt' else 'clear')
+    subprocess.run('cls' if os.name == 'nt' else 'clear')
     sys.stdout.write("\033[?25l")
 
     (cols, lines)=shutil.get_terminal_size()
@@ -51,6 +56,7 @@ def christmas_tree():
     elif height > max_height:
         height = max_height
 
+    # Change the main symbol
     tree_char = '*'
 
     try:
@@ -103,13 +109,15 @@ def christmas_tree():
                 print(' ' * text_padding + f"{yellow}" + line)
 
             end_time = time.perf_counter()
+
+            # Change the speed of changing symbols
             sleep_time = 0.4 - (end_time - start_time)
 
             if sleep_time > 0:
                 time.sleep(sleep_time)
 
     except KeyboardInterrupt:
-        os.system('cls' if os.name == 'nt' else 'clear')
+        subprocess.run('cls' if os.name == 'nt' else 'clear')
 
 if __name__ == "__main__":
     christmas_tree()
